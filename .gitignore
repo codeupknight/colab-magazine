@@ -1,0 +1,5 @@
+#ignore all except wp-content
+!.gitignore
+!public/wp-content
+!public/wp-content/*
+*
