@@ -246,6 +246,7 @@ require get_template_directory() . '/inc/meta-boxes.php';
  */
 require_once get_template_directory() . '/inc/importer/init.php';
 
+//add navwalker
 require_once('wp_bootstrap_navwalker.php');
 
 register_nav_menus( array(
