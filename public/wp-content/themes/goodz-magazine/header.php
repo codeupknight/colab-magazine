@@ -23,11 +23,11 @@
 <body <?php body_class(); ?>>
 
 
-	<nav class="navbar navbar-default text-capitalize" role="navigation">
+	<nav class="navbar navbar-default" role="navigation">
 	    <div class="container-fluid col-sm-12">
 	    	<!-- Brand and toggle get grouped for better mobile display -->
 		  	<div class="row">
-		    	<div class="col-sm-4 center-block">
+		    	<div class="col-sm-4 center-block text-capitalize">
 		        <?php
 		            wp_nav_menu( array(
 		                'menu'              => 'primary',
@@ -55,7 +55,7 @@
 			        <span class="icon-bar"></span>
 			      </button>
 			    </div>
-		    	<div class="col-sm-4 center-block">
+		    	<div class="col-sm-4 center-block text-capitalize">
 		        <?php
 		            wp_nav_menu( array(
 		                'menu'              => 'primary',
