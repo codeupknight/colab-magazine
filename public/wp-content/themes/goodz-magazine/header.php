@@ -37,7 +37,7 @@
 			    </div>
 		    	<div class="col-sm-2">
 		      		<a href="<?php echo home_url(); ?>">
-		            	<img class="site-logo-link img-responsive" src="/wp-content/colab-logo.png">
+		            	<img class="site-logo-link img-responsive header-logo" src="/wp-content/colab-logo.png">
 		        	</a>
 		    	</div>
 		    	<div class="col-sm-4">

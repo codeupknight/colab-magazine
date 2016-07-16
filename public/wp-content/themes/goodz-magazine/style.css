@@ -12196,3 +12196,9 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+/*Custom colab styles*/
+
+#logo {
+	max-height: 60px
+}
