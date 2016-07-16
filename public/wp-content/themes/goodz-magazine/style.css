@@ -2057,7 +2057,7 @@ a:focus {
 
 a:hover {
 	border-color: inherit;
-	/*color: #808080;*/
+	color: #808080;
 }
 
 a:hover,
@@ -10277,7 +10277,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pager .disabled > a:hover,
 .pager .disabled > a:focus,
 .pager .disabled > span {
-  color: #777;
+  /*color: #777;*/
   cursor: not-allowed;
   background-color: #fff;
 }
