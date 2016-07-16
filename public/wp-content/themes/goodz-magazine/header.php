@@ -42,9 +42,9 @@
 		            );
 		        ?>
 			    </div>
-		    	<div class="navbar-header col-sm-4 center-block">
+		    	<div class="navbar-header col-sm-4	">
 		      		<a href="<?php echo home_url(); ?>">
-		            	<img class="site-logo-link img-responsive" id="header-logo" src="/wp-content/colab-logo.png">
+		            	<img class="site-logo-link img-responsive center-block" id="header-logo" src="/wp-content/colab-logo.png">
 		        	</a>
 		    	</div>
 			    <div class="navbar-header center-block">
