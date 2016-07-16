@@ -34,7 +34,7 @@
 		        <span class="icon-bar"></span>
 		      </button>
 		      <a class="navbar-brand" href="<?php echo home_url(); ?>">
-		                <img class="site-logo-link" src="/wp-content/colab-logo.png">
+		                <img class="site-logo-link navbar-brand" src="/wp-content/colab-logo.png">
 		            </a>
 		    </div>
         <?php
