@@ -109,7 +109,7 @@ a {
 a:active,
 a:hover {
 	outline: 0;
-	text-shadow: 1px 1px 1px #bbb;
+	text-shadow: 1px 1px #bbb;
 }
 
 abbr[title] {
