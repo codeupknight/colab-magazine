@@ -24,24 +24,24 @@
 
 
 	<nav class="navbar navbar-default" role="navigation">
-	  <div class="container-fluid">
+	    <div class="container-fluid">
 	    	<!-- Brand and toggle get grouped for better mobile display -->
-	    	<div class="col-sm-3">
-	        <?php
-	            wp_nav_menu( array(
-	                'menu'              => 'primary',
-	                'theme_location'    => 'primary',
-	                'depth'             => 1,
-	                'container'         => 'div',
-	                'container_class'   => 'collapse navbar-collapse',
-	        		'container_id'      => 'bs-example-navbar-collapse-1',
-	                'menu_class'        => 'nav navbar-nav center',
-	                'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
-	                'walker'            => new wp_bootstrap_navwalker())
-	            );
-	        ?>
-		    </div>
 		  	<div class="row">
+		    	<div class="col-sm-3">
+		        <?php
+		            wp_nav_menu( array(
+		                'menu'              => 'primary',
+		                'theme_location'    => 'primary',
+		                'depth'             => 1,
+		                'container'         => 'div',
+		                'container_class'   => 'collapse navbar-collapse',
+		        		'container_id'      => 'bs-example-navbar-collapse-1',
+		                'menu_class'        => 'nav navbar-nav center',
+		                'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+		                'walker'            => new wp_bootstrap_navwalker())
+		            );
+		        ?>
+			    </div>
 		    	<div class="navbar-header col-sm-3">
 		      		<a href="<?php echo home_url(); ?>">
 		            	<img class="site-logo-link img-responsive" id="header-logo" src="/wp-content/colab-logo.png">
