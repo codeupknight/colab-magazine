@@ -33,9 +33,11 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		      <a href="<?php echo home_url(); ?>">
-		                <img class="site-logo-link img-responsive" src="/wp-content/colab-logo.png">
-		            </a>
+		      <div class="col-sm-2">
+		      		<a href="<?php echo home_url(); ?>">
+		            	<img class="site-logo-link img-responsive" src="/wp-content/colab-logo.png">
+		        	</a>
+		    	</div>
 		    </div>
         <?php
             wp_nav_menu( array(
