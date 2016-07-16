@@ -54,6 +54,8 @@ function goodz_magazine_setup() {
 	add_image_size( 'goodz-magazine-logo', 340, 999999, false );
 	add_image_size( 'goodz-magazine-related-post', 353, 227, true );
 
+	set_post_thumbnail_size( 250, 100, true ); 
+
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
 		'primary' => esc_html__( 'Primary Menu', 'goodz-magazine' ),
