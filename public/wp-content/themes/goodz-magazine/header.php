@@ -24,10 +24,10 @@
 
 
 	<nav class="navbar navbar-default" role="navigation">
-	    <div class="container-fluid">
+	    <div class="container-fluid col-sm-12">
 	    	<!-- Brand and toggle get grouped for better mobile display -->
 		  	<div class="row">
-		    	<div class="col-sm-3">
+		    	<div class="col-sm-4">
 		        <?php
 		            wp_nav_menu( array(
 		                'menu'              => 'primary',
@@ -42,7 +42,7 @@
 		            );
 		        ?>
 			    </div>
-		    	<div class="navbar-header col-sm-3">
+		    	<div class="navbar-header col-sm-4">
 		      		<a href="<?php echo home_url(); ?>">
 		            	<img class="site-logo-link img-responsive" id="header-logo" src="/wp-content/colab-logo.png">
 		        	</a>
