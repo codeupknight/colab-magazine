@@ -50,11 +50,9 @@ function goodz_magazine_setup() {
 	add_image_size( 'goodz-magazine-archive-featured-image', 692, 463, true );
 	add_image_size( 'goodz-magazine-video-featured-image', 348, 233, true );
 	add_image_size( 'goodz-magazine-sticky-featured-image', 1084, 725, true );
-	add_image_size( 'goodz-magazine-single-featured-image', 1620, 999999, false );
+	add_image_size( 'goodz-magazine-single-featured-image', 250, 100, true );
 	add_image_size( 'goodz-magazine-logo', 340, 999999, false );
 	add_image_size( 'goodz-magazine-related-post', 353, 227, true );
-
-	set_post_thumbnail_size( 250, 100, true ); 
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
