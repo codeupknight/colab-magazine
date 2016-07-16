@@ -30,8 +30,8 @@
 		    	<div class="col-sm-4 center-block">
 		        <?php
 		            wp_nav_menu( array(
-		                'menu'              => 'primary',
-		                'theme_location'    => 'primary',
+		                'menu'              => 'business',
+		                'theme_location'    => 'business',
 		                'depth'             => 1,
 		                'container'         => 'div',
 		                'container_class'   => 'collapse navbar-collapse',
