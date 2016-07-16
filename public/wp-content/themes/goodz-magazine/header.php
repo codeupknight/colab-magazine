@@ -27,7 +27,7 @@
 	  <div class="container-fluid">
 	    	<!-- Brand and toggle get grouped for better mobile display -->
 		  	<div class="row">
-		    	<div class="nvabar-header col-sm-2">
+		    	<div class="navbar-header col-sm-3">
 		      		<a href="<?php echo home_url(); ?>">
 		            	<img class="site-logo-link img-responsive" id="header-logo" src="/wp-content/colab-logo.png">
 		        	</a>
