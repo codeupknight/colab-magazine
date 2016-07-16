@@ -121,7 +121,7 @@
 				<?php if ( '' != get_bloginfo( 'description' ) ) { ?>
 					<p class="site-description <?php echo esc_attr( $headline_class ); ?>"><?php bloginfo( 'description' ); ?></p>
 				<?php } ?> -->
- -->
+
 			</div><!-- .site-branding -->
 
 			<nav class="navbar navbar-default" role="navigation">
