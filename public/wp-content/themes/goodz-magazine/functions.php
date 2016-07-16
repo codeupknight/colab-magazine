@@ -7,9 +7,7 @@
  * @package Goodz Magazine
  */
 
-register_nav_menus( array(
-    'primary' => __( 'Primary Menu', 'goodz-magazine' ),
-) );
+
 
 if ( ! function_exists( 'goodz_magazine_setup' ) ) :
 /**
@@ -249,4 +247,8 @@ require get_template_directory() . '/inc/meta-boxes.php';
 require_once get_template_directory() . '/inc/importer/init.php';
 
 require_once('wp_bootstrap_navwalker.php');
+
+register_nav_menus( array(
+    'primary' => __( 'Primary Menu', 'goodz-magazine' ),
+) );
 
