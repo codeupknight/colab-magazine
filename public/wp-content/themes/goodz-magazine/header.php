@@ -24,7 +24,7 @@
 
 
 	<nav class="navbar navbar-default" role="navigation">
-	    <div class="container-fluid col-sm-12">
+	    <div class="container-fluid col-sm-12 center-block">
 	    	<!-- Brand and toggle get grouped for better mobile display -->
 		  	<div class="row">
 		    	<div class="col-sm-4">
