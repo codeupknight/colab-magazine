@@ -27,7 +27,7 @@
 	    <div class="container-fluid col-sm-12">
 	    	<!-- Brand and toggle get grouped for better mobile display -->
 		  	<div class="row">
-		    	<div class="col-sm-4 pull-right">
+		    	<div class="col-sm-4 alignright">
 		        <?php
 		            wp_nav_menu( array(
 		                'menu'              => 'primary',
@@ -42,7 +42,7 @@
 		            );
 		        ?>
 			    </div>
-		    	<div class="navbar-header col-sm-4 center-block">
+		    	<div class="navbar-header col-sm-4 aligncenter">
 		      		<a href="<?php echo home_url(); ?>">
 		            	<img class="img-responsive center-block" id="header-logo" src="/wp-content/colab-logo.png">
 		        	</a>
@@ -55,7 +55,7 @@
 			        <span class="icon-bar"></span>
 			      </button>
 			    </div>
-		    	<div class="col-sm-4 pull-left">
+		    	<div class="col-sm-4 alignleft">
 		        <?php
 		            wp_nav_menu( array(
 		                'menu'              => 'primary',
