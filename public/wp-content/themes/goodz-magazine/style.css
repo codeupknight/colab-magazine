@@ -511,7 +511,7 @@ input[type="submit"],
 	font-size: 0.75rem;
 }
 
-table,
+/*table,
 .format-quote blockquote cite,
 .format-quote blockquote + cite,
 .format-quote blockquote + p cite,
@@ -532,9 +532,8 @@ div.sharedaddy .sd-block h3.sd-title,
 .no-results p,
 .error-404 p {
 	font-size: 14px;
-	/*font-size: 0.875rem;*/
-	font-size: 1rem;
-}
+	font-size: 0.875rem;
+}*/
 
 pre,
 code,
