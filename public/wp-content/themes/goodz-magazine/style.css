@@ -508,10 +508,10 @@ input[type="submit"],
 .cat-links,
 .gallery-caption {
 	font-size: 14px;
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 }
 
-/*table,
+table,
 .format-quote blockquote cite,
 .format-quote blockquote + cite,
 .format-quote blockquote + p cite,
@@ -533,7 +533,7 @@ div.sharedaddy .sd-block h3.sd-title,
 .error-404 p {
 	font-size: 14px;
 	font-size: 0.875rem;
-}*/
+}
 
 pre,
 code,
