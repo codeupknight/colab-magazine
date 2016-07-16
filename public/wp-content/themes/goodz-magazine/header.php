@@ -134,7 +134,7 @@
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 			      </button>
-			      <a class="navbar-brand nav-right" href="<?php echo home_url(); ?>">
+			      <a class="navbar-brand navbar-right" href="<?php echo home_url(); ?>">
 			                <?php bloginfo('name'); ?>
 			            </a>
 			    </div>
