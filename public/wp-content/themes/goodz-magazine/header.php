@@ -26,6 +26,21 @@
 	<nav class="navbar navbar-default" role="navigation">
 	  <div class="container-fluid">
 	    	<!-- Brand and toggle get grouped for better mobile display -->
+		    	<div class="col-sm-4">
+		        <?php
+		            wp_nav_menu( array(
+		                'menu'              => 'primary',
+		                'theme_location'    => 'primary',
+		                'depth'             => 2,
+		                'container'         => 'div',
+		                'container_class'   => 'collapse navbar-collapse',
+		        		'container_id'      => 'bs-example-navbar-collapse-1',
+		                'menu_class'        => 'nav navbar-nav center',
+		                'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+		                'walker'            => new wp_bootstrap_navwalker())
+		            );
+		        ?>
+			    </div>
 		  	<div class="row">
 		    	<div class="navbar-header col-sm-3">
 		      		<a href="<?php echo home_url(); ?>">
