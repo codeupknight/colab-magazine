@@ -21,7 +21,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="hfeed site">
+<!-- <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'goodz-magazine' ); ?></a>
 
 	<?php
@@ -104,7 +104,7 @@
 				?>
 
 				<!-- Display site title and description -->
-				<?php if ( '' != get_bloginfo( 'name' ) ) { ?>
+<!-- 				<?php if ( '' != get_bloginfo( 'name' ) ) { ?>
 
 					<?php if ( is_front_page() && is_home() ) : ?>
 
@@ -120,8 +120,8 @@
 
 				<?php if ( '' != get_bloginfo( 'description' ) ) { ?>
 					<p class="site-description <?php echo esc_attr( $headline_class ); ?>"><?php bloginfo( 'description' ); ?></p>
-				<?php } ?>
-
+				<?php } ?> -->
+ -->
 			</div><!-- .site-branding -->
 
 			<nav class="navbar navbar-default" role="navigation">
