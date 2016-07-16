@@ -27,7 +27,7 @@
 	  <div class="container-fluid">
 	    	<!-- Brand and toggle get grouped for better mobile display -->
 		  	<div class="row">
-			    <div class="navbar-header col-sm-2">
+			    <div class="navbar-header">
 			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 			        <span class="sr-only">Toggle navigation</span>
 			        <span class="icon-bar"></span>
