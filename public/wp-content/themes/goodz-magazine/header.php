@@ -25,6 +25,7 @@
 
 	<nav class="navbar navbar-default" role="navigation">
 	  <div class="container-fluid">
+	  	<div class="row">
 	    	<!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
 		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -39,6 +40,7 @@
 		        	</a>
 		    	</div>
 		    </div>
+		</div>
         <?php
             wp_nav_menu( array(
                 'menu'              => 'primary',
