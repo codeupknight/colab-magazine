@@ -7,6 +7,10 @@
  * @package Goodz Magazine
  */
 
+register_nav_menus( array(
+    'primary' => __( 'Primary Menu', 'goodz-magazine' ),
+) );
+
 if ( ! function_exists( 'goodz_magazine_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
@@ -243,4 +247,6 @@ require get_template_directory() . '/inc/meta-boxes.php';
  * Load One click importer
  */
 require_once get_template_directory() . '/inc/importer/init.php';
+
+require_once('wp_bootstrap_navwalker.php');
 
