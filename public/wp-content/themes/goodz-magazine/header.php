@@ -27,7 +27,7 @@
 	    <div class="container-fluid col-sm-12">
 	    	<!-- Brand and toggle get grouped for better mobile display -->
 		  	<div class="row">
-		    	<div class="col-sm-4 center-block">
+		    	<div class="col-sm-4 pull-right">
 		        <?php
 		            wp_nav_menu( array(
 		                'menu'              => 'primary',
@@ -55,7 +55,7 @@
 			        <span class="icon-bar"></span>
 			      </button>
 			    </div>
-		    	<div class="col-sm-4 center-block">
+		    	<div class="col-sm-4 pull-left">
 		        <?php
 		            wp_nav_menu( array(
 		                'menu'              => 'primary',
