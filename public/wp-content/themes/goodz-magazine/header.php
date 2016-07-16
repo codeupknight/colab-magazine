@@ -34,8 +34,7 @@
 		        <span class="icon-bar"></span>
 		      </button>
 		      <a class="navbar-brand" href="<?php echo home_url(); ?>">
-		                <!-- <?php bloginfo('name'); ?> -->
-		                <?php get_theme_mod( 'goodz_magazine_logo_setting' ); ?>
+		                <img class="site-logo-link" src="/wp-content/colab-logo.png">
 		            </a>
 		    </div>
         <?php
