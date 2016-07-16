@@ -25,7 +25,6 @@
 
 	<nav class="navbar navbar-default" role="navigation">
 	  <div class="container-fluid">
-	  	<div class="row">
 	    	<!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
 		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -34,27 +33,28 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		      <div class="col-sm-2">
+		  	<div class="row">
+		    	<div class="col-sm-2">
 		      		<a href="<?php echo home_url(); ?>">
 		            	<img class="site-logo-link img-responsive" src="/wp-content/colab-logo.png">
 		        	</a>
 		    	</div>
-		    </div>
+		    	<div class="col-sm-4">
+		        <?php
+		            wp_nav_menu( array(
+		                'menu'              => 'primary',
+		                'theme_location'    => 'primary',
+		                'depth'             => 2,
+		                'container'         => 'div',
+		                'container_class'   => 'collapse navbar-collapse',
+		        		'container_id'      => 'bs-example-navbar-collapse-1',
+		                'menu_class'        => 'nav navbar-nav center',
+		                'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+		                'walker'            => new wp_bootstrap_navwalker())
+		            );
+		        ?>
+			    </div>
 		</div>
-        <?php
-            wp_nav_menu( array(
-                'menu'              => 'primary',
-                'theme_location'    => 'primary',
-                'depth'             => 2,
-                'container'         => 'div',
-                'container_class'   => 'collapse navbar-collapse',
-        		'container_id'      => 'bs-example-navbar-collapse-1',
-                'menu_class'        => 'nav navbar-nav center',
-                'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
-                'walker'            => new wp_bootstrap_navwalker())
-            );
-        ?>
-	    </div>
 	</nav>
 
 	<!-- Search form -->
