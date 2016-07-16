@@ -32,7 +32,7 @@
 		            	<img class="site-logo-link img-responsive" id="header-logo" src="/wp-content/colab-logo.png">
 		        	</a>
 		    	</div>
-			    <div class="navbar-header">
+			    <div>
 			      <button type="button" class="navbar-toggle verticalize" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 			        <span class="sr-only">Toggle navigation</span>
 			        <span class="icon-bar"></span>
