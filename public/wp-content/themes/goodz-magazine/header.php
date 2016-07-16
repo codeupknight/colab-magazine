@@ -27,12 +27,12 @@
 	  <div class="container-fluid">
 	    	<!-- Brand and toggle get grouped for better mobile display -->
 		  	<div class="row">
-		    	<div class="col-sm-2">
+		    	<div class="nvabar-header col-sm-2">
 		      		<a href="<?php echo home_url(); ?>">
 		            	<img class="site-logo-link img-responsive" id="header-logo" src="/wp-content/colab-logo.png">
 		        	</a>
 		    	</div>
-			    <div>
+			    <div class="navbar-header">
 			      <button type="button" class="navbar-toggle verticalize" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 			        <span class="sr-only">Toggle navigation</span>
 			        <span class="icon-bar"></span>
