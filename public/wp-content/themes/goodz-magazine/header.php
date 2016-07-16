@@ -24,10 +24,10 @@
 
 
 	<nav class="navbar navbar-default" role="navigation">
-	    <div class="container-fluid col-sm-12 center-block">
+	    <div class="container-fluid col-sm-12">
 	    	<!-- Brand and toggle get grouped for better mobile display -->
 		  	<div class="row">
-		    	<div class="col-sm-4">
+		    	<div class="col-sm-4 center-block">
 		        <?php
 		            wp_nav_menu( array(
 		                'menu'              => 'primary',
@@ -42,12 +42,12 @@
 		            );
 		        ?>
 			    </div>
-		    	<div class="navbar-header col-sm-4">
+		    	<div class="navbar-header col-sm-4 center-block">
 		      		<a href="<?php echo home_url(); ?>">
 		            	<img class="site-logo-link img-responsive" id="header-logo" src="/wp-content/colab-logo.png">
 		        	</a>
 		    	</div>
-			    <div class="navbar-header">
+			    <div class="navbar-header center-block">
 			      <button type="button" class="navbar-toggle verticalize" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 			        <span class="sr-only">Toggle navigation</span>
 			        <span class="icon-bar"></span>
@@ -55,7 +55,7 @@
 			        <span class="icon-bar"></span>
 			      </button>
 			    </div>
-		    	<div class="col-sm-4">
+		    	<div class="col-sm-4 center-block">
 		        <?php
 		            wp_nav_menu( array(
 		                'menu'              => 'primary',
