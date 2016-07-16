@@ -73,12 +73,6 @@
 			</div>
 		</div>
 	</nav>
-
-	<!-- Search form -->
-	<div class="search-wrap"><?php get_search_form(); ?></div>
-		<a href="#" id="big-search-trigger"><i class="icon-search"></i></a>
-		<a href="#" id="big-search-close"><i class="icon-close"></i></a>
-	</div><!-- container -->
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">

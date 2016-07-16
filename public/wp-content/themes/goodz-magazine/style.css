@@ -12202,3 +12202,6 @@ button.close {
 #header-logo {
 	height: 60px
 }
+nav {
+	z-index: 10;
+}
