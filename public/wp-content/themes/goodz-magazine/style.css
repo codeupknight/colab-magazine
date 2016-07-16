@@ -2019,7 +2019,7 @@ body:not(.featured-slider-fullwidth) .transparent-header .main-navigation .nav-m
 --------------------------------------------------------------*/
 
 a {
-	color: #000;
+	/*color: #000;*/
 	text-decoration: none;
 	-webkit-transition: color .3s;
 	-moz-transition: color .3s;
@@ -2059,7 +2059,7 @@ a:focus {
 
 a:hover {
 	/*border-color: inherit;*/
-	color: #808080;
+	/*color: #808080;*/
 }
 
 a:hover,
