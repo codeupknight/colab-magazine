@@ -24,7 +24,6 @@
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'goodz-magazine' ); ?></a>
 
-
 	<?php
 
 		$header_transparency    = get_theme_mod( 'blog_header_transparency_enable', 1 );
@@ -125,25 +124,36 @@
 
 			</div><!-- .site-branding -->
 
-			<nav id="site-navigation" class="main-navigation" role="navigation">
+			<nav class="navbar navbar-default" role="navigation">
+			  <div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="<?php echo home_url(); ?>">
+			                <?php bloginfo('name'); ?>
+			            </a>
+			    </div>
 
-				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
-					<?php esc_html_e( 'Primary Menu', 'goodz-magazine' ); ?><span>&nbsp;</span>
-				</button>
-
-				<?php wp_nav_menu( array(
-                'menu'              => 'primary',
-                'theme_location'    => 'primary',
-                'depth'             => 2,
-                'container'         => 'div',
-                'container_class'   => 'collapse navbar-collapse',
-        		'container_id'      => 'bs-example-navbar-collapse-1',
-                'menu_class'        => 'nav navbar-nav',
-                'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
-                'walker'            => new wp_bootstrap_navwalker())
-            );); ?>
-
-			</nav><!-- #site-navigation -->
+			        <?php
+			            wp_nav_menu( array(
+			                'menu'              => 'primary',
+			                'theme_location'    => 'primary',
+			                'depth'             => 2,
+			                'container'         => 'div',
+			                'container_class'   => 'collapse navbar-collapse',
+			        'container_id'      => 'bs-example-navbar-collapse-1',
+			                'menu_class'        => 'nav navbar-nav',
+			                'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+			                'walker'            => new wp_bootstrap_navwalker())
+			            );
+			        ?>
+			    </div>
+			</nav>
 
 			<!-- Search form -->
 			<div class="search-wrap"><?php get_search_form(); ?></div>
