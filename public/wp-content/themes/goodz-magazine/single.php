@@ -11,11 +11,7 @@ get_header();
 
 ?>
 	<div id="primary" class="content-area">
-        <?php if ( is_active_sidebar( 'mid-page-ads' ) ) { ?>
-            <div class="col-lg-3 col-sm-6 widget-area">
-                <?php dynamic_sidebar( 'Mid-page Ads' ); ?>
-            </div>
-        <?php } ?>
+
 		<?php while ( have_posts() ) : the_post(); ?>
 
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
