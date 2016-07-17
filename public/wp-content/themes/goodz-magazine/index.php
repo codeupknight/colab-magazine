@@ -28,6 +28,7 @@ $paging_type = get_theme_mod( 'paging_setting', 'infinite_scroll' );
             <div class="col-lg-3 col-sm-6 widget-area">
                 <?php dynamic_sidebar( 'Mid-page Ads' ); ?>
             </div>
+        </div>
         <?php } ?>
 		<div id="primary" class="content-area <?php goodz_magazine_content_cols(); ?>">
 			<main id="main" class="site-main" role="main">
