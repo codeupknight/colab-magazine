@@ -32,6 +32,16 @@ $paging_type = get_theme_mod( 'paging_setting', 'infinite_scroll' );
 				            <?php dynamic_sidebar( 'Mid-page Ads' ); ?>
 				        </div>
 			        <?php } ?>
+				    <?php if ( is_active_sidebar( 'mid-page-ads' ) ) { ?>
+				        <div class="col-lg-3 col-sm-6 widget-area">
+				            <?php dynamic_sidebar( 'Mid-page Ads' ); ?>
+				        </div>
+			        <?php } ?>
+			        <?php if ( is_active_sidebar( 'mid-page-ads' ) ) { ?>
+				        <div class="col-lg-3 col-sm-6 widget-area">
+				            <?php dynamic_sidebar( 'Mid-page Ads' ); ?>
+				        </div>
+			        <?php } ?>
 			    </div>
 				<?php if ( have_posts() ) : ?>
 
