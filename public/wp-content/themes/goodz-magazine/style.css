@@ -12206,3 +12206,12 @@ nav {
 	z-index: 10;
 	border-radius: 0px;
 }
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    text-align:left;
+    margin-right:-4px;
+}
