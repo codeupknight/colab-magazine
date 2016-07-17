@@ -26,6 +26,13 @@ $paging_type = get_theme_mod( 'paging_setting', 'infinite_scroll' );
 		<div id="primary" class="content-area <?php goodz_magazine_content_cols(); ?>">
 			<main id="main" class="site-main" role="main">
 
+				<div class="row">
+				    <?php if ( is_active_sidebar( 'mid-page-ads' ) ) { ?>
+				        <div class="col-lg-3 col-sm-6 widget-area">
+				            <?php dynamic_sidebar( 'Mid-page Ads' ); ?>
+				        </div>
+			        <?php } ?>
+			    </div>
 				<?php if ( have_posts() ) : ?>
 
 					<?php if ( is_home() && ! is_front_page() ) : ?>
@@ -36,7 +43,6 @@ $paging_type = get_theme_mod( 'paging_setting', 'infinite_scroll' );
 
 					<div class="row">
 						<div class="grid-wrapper clear" id="post-load">
-							
 							<?php while ( have_posts() ) : the_post(); ?>
 
 								<?php get_template_part( 'templates/contents/content', get_post_format() ); ?>
