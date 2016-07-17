@@ -38,20 +38,7 @@ $footer_copyright = get_theme_mod( 'goodz_footer_copyright', '' );
 
 			<div class="site-info">
 
-				<?php if ( '' == $footer_copyright ) { ?>
-
-					<a href="<?php echo esc_url( esc_html__( 'https://wordpress.org/', 'goodz' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'goodz' ), 'WordPress' ); ?></a>
-					<span class="sep"> | </span>
-
-					<span>
-						<?php printf( 'Theme: %1$s by <a href="%2$s" rel="designer">%3$s</a>.', 'Goodz', 'http://themeskingdom.com', 'Themes Kingdom' ); ?>
-					</span>
-
-				<?php } else {
-
-					printf( $footer_copyright );
-
-				} ?>
+				Copyright 2016, CO|LAB Magazine. Web Design by Eddie Knight.
 
 			</div><!-- .site-info -->
 
