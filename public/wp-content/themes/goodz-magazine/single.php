@@ -12,7 +12,11 @@ get_header();
 ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-
+        <?php if ( is_active_sidebar( 'footer-widget-3' ) ) { ?>
+            <div class="col-lg-3 col-sm-6 widget-area">
+                <?php dynamic_sidebar( 'Footer Widget 3' ); ?>
+            </div>
+        <?php } ?>
 		<?php while ( have_posts() ) : the_post(); ?>
 
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
