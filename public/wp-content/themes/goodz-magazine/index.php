@@ -36,7 +36,6 @@ $paging_type = get_theme_mod( 'paging_setting', 'infinite_scroll' );
 
 					<div class="row">
 						<div class="grid-wrapper clear" id="post-load">
-							<?php query_posts('show_posts=1'); ?>
 							
 							<?php while ( have_posts() ) : the_post(); ?>
 
