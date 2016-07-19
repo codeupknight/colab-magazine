@@ -275,7 +275,7 @@ require_once get_template_directory() . '/inc/importer/init.php';
 add_action('wp_enqueue_styles', 'my_styles');
 function my_styles(){
     wp_enqueue_style('twitter', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');
-	wp_enqueue_script( 'bootstrap-jquery', get_stylesheet_directory_uri() . 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js' );
+	wp_enqueue_script( 'bootstrap-jquery', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js' );
     wp_enqueue_style('theme-css', get_stylesheet_uri(), 'twitter');
 }
 
