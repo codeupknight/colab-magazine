@@ -48,7 +48,7 @@
 		        	</a>
 		    	</div>
 			    <div class="navbar-header center-block">
-			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
 			        <span class="sr-only">Toggle navigation</span>
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
@@ -64,7 +64,7 @@
 		                'depth'             => 2,
 		                'container'         => 'div',
 		                'container_class'   => 'collapse navbar-collapse',
-		        		'container_id'      => 'bs-example-navbar-collapse-1',
+		        		'container_id'      => 'bs-example-navbar-collapse-2',
 		                'menu_class'        => 'nav navbar-nav center',
 		                'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
 		                'walker'            => new wp_bootstrap_navwalker())
