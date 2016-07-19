@@ -27,19 +27,19 @@ $paging_type = get_theme_mod( 'paging_setting', 'infinite_scroll' );
 			<main id="main" class="site-main" role="main">
 
 				<div class="row row-centered hidden-xs">
-				    <?php if ( is_active_sidebar( 'mid-page-ad-1' ) ) { ?>
+				    <?php if ( is_active_sidebar( 'mid-page-ads' ) ) { ?>
 				        <div class="col-centered col-lg-3 col-sm-6 widget-area">
-				            <?php dynamic_sidebar( 'mid-page-ad-1' ); ?>
+				            <?php dynamic_sidebar( 'Mid-page Ads' ); ?>
 				        </div>
 			        <?php } ?>
-				    <?php if ( is_active_sidebar( 'mid-page-ad-2' ) ) { ?>
+				    <?php if ( is_active_sidebar( 'mid-page-ads' ) ) { ?>
 				        <div class="col-centered col-lg-3 col-sm-6 widget-area">
-				            <?php dynamic_sidebar( 'mid-page-ad-2' ); ?>
+				            <?php dynamic_sidebar( 'Mid-page Ads' ); ?>
 				        </div>
 			        <?php } ?>
-			        <?php if ( is_active_sidebar( 'mid-page-ad-3' ) ) { ?>
+			        <?php if ( is_active_sidebar( 'mid-page-ads' ) ) { ?>
 				        <div class="col-centered col-lg-3 col-sm-6 widget-area">
-				            <?php dynamic_sidebar( 'mid-page-ad-3' ); ?>
+				            <?php dynamic_sidebar( 'Mid-page Ads' ); ?>
 				        </div>
 			        <?php } ?>
 			    </div>
