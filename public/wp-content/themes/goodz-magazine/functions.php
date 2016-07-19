@@ -189,6 +189,12 @@ function goodz_magazine_scripts() {
 	wp_enqueue_script( 'fancybox', get_template_directory_uri() . '/js/fancybox/fancybox.pack.js', false, false, true );
 	wp_enqueue_script( 'fancybox-helper', get_template_directory_uri() . '/js/fancybox/helpers/jquery.fancybox-media.js', false, false, true );
 
+	//bootstrap CDNs
+    wp_enqueue_style('twitter', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');
+	wp_enqueue_script( 'bootstrap-jquery', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js' );
+    wp_enqueue_style('theme-css', get_stylesheet_uri(), 'twitter');
+
+
 	// Main JS file
 	wp_enqueue_script( 'goodz-magazine-call-scripts', get_template_directory_uri() . '/js/common.js', array( 'jquery', 'masonry' ), false, true );
 
@@ -272,12 +278,12 @@ require get_template_directory() . '/inc/meta-boxes.php';
 require_once get_template_directory() . '/inc/importer/init.php';
 
 //enqueue bootstrap
-function my_styles(){
-    wp_enqueue_style('twitter', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');
-	wp_enqueue_script( 'bootstrap-jquery', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js' );
-    wp_enqueue_style('theme-css', get_stylesheet_uri(), 'twitter');
-}
-add_action('wp_enqueue_styles', 'my_styles');
+// function my_styles(){
+//     wp_enqueue_style('twitter', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');
+// 	wp_enqueue_script( 'bootstrap-jquery', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js' );
+//     wp_enqueue_style('theme-css', get_stylesheet_uri(), 'twitter');
+// }
+// add_action('wp_enqueue_styles', 'my_styles');
 
 
 
