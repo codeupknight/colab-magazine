@@ -26,19 +26,19 @@ $paging_type = get_theme_mod( 'paging_setting', 'infinite_scroll' );
 		<div id="primary" class="content-area <?php goodz_magazine_content_cols(); ?>">
 			<main id="main" class="site-main" role="main">
 				<div class="row row-centered hidden-xs">
-				    <?php if ( is_active_sidebar( 'mid-page-ads' ) ) { ?>
+				    <?php if ( is_active_sidebar( 'mid-page-ad-1' ) ) { ?>
 				        <div class="col-centered col-lg-3 col-sm-6 widget-area">
-				            <?php dynamic_sidebar( 'Mid-page Ads' ); ?>
+				            <?php dynamic_sidebar( 'Mid-page Ad Left' ); ?>
 				        </div>
 			        <?php } ?>
-				    <?php if ( is_active_sidebar( 'mid-page-ads' ) ) { ?>
+				    <?php if ( is_active_sidebar( 'mid-page-ad-2' ) ) { ?>
 				        <div class="col-centered col-lg-3 col-sm-6 widget-area">
-				            <?php dynamic_sidebar( 'Mid-page Ads' ); ?>
+				            <?php dynamic_sidebar( 'Mid-page Ad Center' ); ?>
 				        </div>
 			        <?php } ?>
-			        <?php if ( is_active_sidebar( 'mid-page-ads' ) ) { ?>
+			        <?php if ( is_active_sidebar( 'mid-page-ad-3' ) ) { ?>
 				        <div class="col-centered col-lg-3 col-sm-6 widget-area">
-				            <?php dynamic_sidebar( 'Mid-page Ads' ); ?>
+				            <?php dynamic_sidebar( 'Mid-page Ad Right' ); ?>
 				        </div>
 			        <?php } ?>
 			    </div>

@@ -147,8 +147,24 @@ function goodz_magazine_widgets_init() {
 		'after_title'   => '</h2>'
 	) );
 	register_sidebar( array(
-		'name'          => esc_html__( 'Mid-page Ads', 'goodz-magazine' ),
-		'id'            => 'mid-page-ads',
+		'name'          => esc_html__( 'Mid-page Ad 1', 'goodz-magazine' ),
+		'id'            => 'mid-page-ad-1',
+		'before_widget' => '<aside class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>'
+	) );
+		register_sidebar( array(
+		'name'          => esc_html__( 'Mid-page Ad 2', 'goodz-magazine' ),
+		'id'            => 'mid-page-ad-2',
+		'before_widget' => '<aside class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>'
+	) );
+		register_sidebar( array(
+		'name'          => esc_html__( 'Mid-page Ad 3', 'goodz-magazine' ),
+		'id'            => 'mid-page-ad-3',
 		'before_widget' => '<aside class="widget %2$s">',
 		'after_widget'  => '</aside>',
 		'before_title'  => '<h2 class="widget-title">',
