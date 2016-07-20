@@ -25,7 +25,6 @@ $paging_type = get_theme_mod( 'paging_setting', 'infinite_scroll' );
 	<div class="row">
 		<div id="primary" class="content-area <?php goodz_magazine_content_cols(); ?>">
 			<main id="main" class="site-main" role="main">
-
 				<div class="row row-centered hidden-xs">
 				    <?php if ( is_active_sidebar( 'mid-page-ads' ) ) { ?>
 				        <div class="col-centered col-lg-3 col-sm-6 widget-area">
