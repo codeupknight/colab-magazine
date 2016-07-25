@@ -12215,3 +12215,6 @@ nav {
     text-align:left;
     margin-right:-4px;
 }
+#login h1 a, .login h1 a {
+    background-image: url(/colab-logo.png);
+}
